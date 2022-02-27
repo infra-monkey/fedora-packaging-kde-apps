@@ -1,13 +1,12 @@
 %global kf5_version 5.91.0
 %global qt5_version 5.15.2
 Name:     {{{ git_dir_name }}}
-Version:  1.0.0
+Version:  1.0
 Release:  1%{?dist}
 Summary:  KDE Plasma scanning application
 License:  GPLv3+
 URL:      https://invent.kde.org/utilities/skanpage
-Source:   {{{ git_dir_pack }}}
-#BuildArch: x86_64
+Source0:   https://invent.kde.org/utilities/skanpage/-/archive/%{version}/skanpage-%{version}.tar.gz
 BuildRequires: cmake >= 3.16
 BuildRequires: kf5-ki18n-devel >= %{kf5_version}
 BuildRequires: kf5-kcmutils-devel >= %{kf5_version}
@@ -54,5 +53,5 @@ Skanpage is a modern scanning application.
 %{_datadir}/locale/fr/LC_MESSAGES/kcm_webcam_settings.mo
 
 %changelog
-* Mon Feb 27 2022 Antoine Gatineau <antoine.gatineau@infra-monkey.com> - 1.0.0
-- Packaging of skapage 1.0.0
+* Mon Feb 27 2022 Antoine Gatineau <antoine.gatineau@infra-monkey.com> - 1.0
+- Packaging of skapage 1.0
