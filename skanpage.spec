@@ -39,21 +39,12 @@ Skanpage is a modern scanning application.
 %cmake_install
 
 %files
-%{_datadir}/polkit-1/actions/kcm.webcam.settings.udevhelper.policy
-%{_kf5_libexecdir}/kauth/udevhelper
-%{_datadir}/dbus-1/system.d/kcm.webcam.settings.udevhelper.conf
-%{_datadir}/dbus-1/system-services/kcm.webcam.settings.udevhelper.service
-%{_qt5_plugindir}/kcms/kcm_webcam_settings.so
-%{_datadir}/kservices5/kcm_webcam_settings.desktop
-%{_datadir}/kpackage/kcms/kcm_webcam_settings
-%{_datadir}/kpackage/kcms/kcm_webcam_settings/metadata.desktop
-%{_datadir}/kpackage/kcms/kcm_webcam_settings/contents
-%{_datadir}/kpackage/kcms/kcm_webcam_settings/contents/ui
-%{_datadir}/kpackage/kcms/kcm_webcam_settings/contents/ui/main.qml
-%{_datadir}/kpackage/kcms/kcm_webcam_settings/metadata.json
-%{_datadir}/locale/fr
-%{_datadir}/locale/fr/LC_MESSAGES
-%{_datadir}/locale/fr/LC_MESSAGES/kcm_webcam_settings.mo
+%{_datadir}/applications/org.kde.skanpage.desktop
+%{_datadir}/metainfo/org.kde.skanpage.appdata.xml
+%{_datadir}/qlogging-categories5/skanpage.categories
+%{_bindir}/skanpage
+%{_datadir}/icons/hicolor/scalable/apps/skanpage.svg
+%{_datadir}/icons/hicolor/48x48/apps/skanpage.png
 
 %changelog
 * Mon Feb 27 2022 Antoine Gatineau <antoine.gatineau@infra-monkey.com> - 1.0
