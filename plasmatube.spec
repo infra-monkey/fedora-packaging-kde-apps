@@ -23,7 +23,7 @@ Requires: kf5-kirigami2 >= %{kf5_version}
 Requires: kf5-plasma >= %{kf5_version}
 
 %description
-Skanpage is a modern scanning application.
+PlasmaTube is KDE Plasma native youtube viewer.
 
 %prep
 %setup
