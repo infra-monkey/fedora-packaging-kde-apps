@@ -24,6 +24,7 @@ Requires: qt5-qtbase-gui >= %{qt5_version}
 Requires: kf5-ki18n >= %{kf5_version}
 Requires: kf5-kirigami2 >= %{kf5_version}
 Requires: kf5-plasma >= %{kf5_version}
+Requires: youtube-dl
 
 %description
 PlasmaTube is KDE Plasma native youtube viewer.
