@@ -1,12 +1,12 @@
 %global kf5_version 5.81.0
 %global qt5_version 5.15.0
 Name:     plasmatube
-Version:  v22.02
+Version:  22.02
 Release:  1%{?dist}
 Summary:  KDE Plasma scanning application
 License:  GPLv3+
 URL:      https://invent.kde.org/plasma-mobile/%{name}
-Source0:   https://invent.kde.org/plasma-mobile/%{name}/-/archive/%{version}/%{name}-%{version}.tar.gz
+Source0:   https://invent.kde.org/plasma-mobile/%{name}/-/archive/v%{version}/%{name}-v%{version}.tar.gz
 BuildRequires: cmake >= 3.16
 BuildRequires: qt5-qtquickcontrols2-devel  >= %{qt5_version}
 BuildRequires: qt5-qtbase-devel  >= %{qt5_version}
@@ -42,5 +42,5 @@ PlasmaTube is KDE Plasma native youtube viewer.
 %{_bindir}/plasmatube
 
 %changelog
-* Sun Feb 27 2022 Antoine Gatineau <antoine.gatineau@infra-monkey.com> - v22.02
-- Packaging of plasmatube v22.02
+* Sun Feb 27 2022 Antoine Gatineau <antoine.gatineau@infra-monkey.com> - 22.02
+- Packaging of plasmatube 22.02

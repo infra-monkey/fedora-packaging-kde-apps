@@ -47,4 +47,4 @@ Skanpage is a modern scanning application.
 
 %changelog
 * Sun Feb 27 2022 Antoine Gatineau <antoine.gatineau@infra-monkey.com> - 1.0
-- Packaging of skapage 1.0
+- Packaging of skanpage 1.0
