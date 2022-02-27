@@ -27,6 +27,7 @@ Skanpage is a modern scanning application.
 
 %prep
 #{{{ git_dir_setup_macro }}}
+%setup
 
 %build
 %cmake_kf5
