@@ -15,12 +15,14 @@ BuildRequires: kf5-rpm-macros >= %{kf5_version}
 BuildRequires: kf5-libksane-devel >= %{kf5_version}
 BuildRequires: kf5-kirigami2-devel >= %{kf5_version}
 BuildRequires: kf5-plasma-devel >= %{kf5_version}
+BuildRequires: kf5-kcrash-devel >= %{kf5_version}
 Requires: qt5-qtquickcontrols2 >= %{qt5_version}
 Requires: qt5-qtbase >= %{qt5_version}
 Requires: kf5-ki18n >= %{kf5_version}
 Requires: kf5-libksane >= %{kf5_version}
 Requires: kf5-kirigami2 >= %{kf5_version}
 Requires: kf5-plasma >= %{kf5_version}
+Requires: kf5-kcrash >= %{kf5_version}
 
 %description
 Skanpage is a modern scanning application.
