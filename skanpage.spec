@@ -1,4 +1,4 @@
-%global kf5_version 5.91.0
+%global kf5_version 5.87.0
 %global qt5_version 5.15.2
 Name:     skanpage
 Version:  1.0
