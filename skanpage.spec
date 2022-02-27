@@ -46,5 +46,5 @@ Skanpage is a modern scanning application.
 %{_datadir}/icons/hicolor/48x48/apps/skanpage.png
 
 %changelog
-* Mon Feb 27 2022 Antoine Gatineau <antoine.gatineau@infra-monkey.com> - 1.0
+* Sun Feb 27 2022 Antoine Gatineau <antoine.gatineau@infra-monkey.com> - 1.0
 - Packaging of skapage 1.0

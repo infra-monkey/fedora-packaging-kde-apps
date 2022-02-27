@@ -42,5 +42,5 @@ Skanpage is a modern scanning application.
 %{_datadir}/icons/hicolor/48x48/apps/skanpage.png
 
 %changelog
-* Mon Feb 27 2022 Antoine Gatineau <antoine.gatineau@infra-monkey.com> - v22.02
+* Sun Feb 27 2022 Antoine Gatineau <antoine.gatineau@infra-monkey.com> - v22.02
 - Packaging of plasmatube v22.02
