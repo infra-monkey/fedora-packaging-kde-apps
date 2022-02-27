@@ -2,7 +2,7 @@
 %global qt5_version 5.15.2
 Name:     {{{ git_dir_name }}}
 Version:  1.0.0
-Release:  1
+Release:  1%{?dist}
 Summary:  KDE Plasma scanning application
 License:  GPLv3+
 URL:      https://invent.kde.org/utilities/skanpage
