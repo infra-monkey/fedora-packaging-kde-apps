@@ -1,6 +1,6 @@
 %global kf5_version 5.91.0
 %global qt5_version 5.15.2
-Name:     {{{ git_dir_name }}}
+Name:     skanpage
 Version:  1.0
 Release:  1%{?dist}
 Summary:  KDE Plasma scanning application
