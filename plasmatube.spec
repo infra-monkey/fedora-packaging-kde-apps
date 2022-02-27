@@ -12,7 +12,6 @@ BuildRequires: qt5-qtquickcontrols2-devel  >= %{qt5_version}
 BuildRequires: qt5-qtbase-devel  >= %{qt5_version}
 BuildRequires: qt5-qtmultimedia-devel  >= %{qt5_version}
 BuildRequires: qt5-qtsvg-devel >= %{qt5_version}
-BuildRequires: qt5-qtbase-gui-devel  >= %{qt5_version}
 BuildRequires: kf5-ki18n-devel >= %{kf5_version}
 BuildRequires: kf5-rpm-macros >= %{kf5_version}
 BuildRequires: kf5-kirigami2-devel >= %{kf5_version}
