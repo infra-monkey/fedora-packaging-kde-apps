@@ -10,6 +10,7 @@ Source0:   https://invent.kde.org/plasma-mobile/%{name}/-/archive/v%{version}/%{
 BuildRequires: cmake >= 3.16
 BuildRequires: qt5-qtquickcontrols2-devel  >= %{qt5_version}
 BuildRequires: qt5-qtbase-devel  >= %{qt5_version}
+BuildRequires: qt5-qtmultimedia-devel  >= %{qt5_version}
 BuildRequires: qt5-qtsvg-devel >= %{qt5_version}
 BuildRequires: kf5-ki18n-devel >= %{kf5_version}
 BuildRequires: kf5-rpm-macros >= %{kf5_version}
@@ -18,6 +19,7 @@ BuildRequires: kf5-plasma-devel >= %{kf5_version}
 Requires: qt5-qtquickcontrols2 >= %{qt5_version}
 Requires: qt5-qtbase >= %{qt5_version}
 Requires: qt5-qtsvg >= %{qt5_version}
+Requires: qt5-qtmultimedia >= %{qt5_version}
 Requires: kf5-ki18n >= %{kf5_version}
 Requires: kf5-kirigami2 >= %{kf5_version}
 Requires: kf5-plasma >= %{kf5_version}
