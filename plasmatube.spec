@@ -26,7 +26,7 @@ Requires: kf5-plasma >= %{kf5_version}
 PlasmaTube is KDE Plasma native youtube viewer.
 
 %prep
-%setup
+%setup -n %{name}-v%{version}
 
 %build
 %cmake_kf5
