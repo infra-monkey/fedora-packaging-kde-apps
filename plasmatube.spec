@@ -36,12 +36,10 @@ PlasmaTube is KDE Plasma native youtube viewer.
 %cmake_install
 
 %files
-%{_datadir}/applications/org.kde.skanpage.desktop
-%{_datadir}/metainfo/org.kde.skanpage.appdata.xml
-%{_datadir}/qlogging-categories5/skanpage.categories
-%{_bindir}/skanpage
-%{_datadir}/icons/hicolor/scalable/apps/skanpage.svg
-%{_datadir}/icons/hicolor/48x48/apps/skanpage.png
+%{_datadir}/applications/org.kde.plasmatube.desktop
+%{_datadir}/metainfo/org.kde.plasmatube.appdata.xml
+%{_datadir}/icons/hicolor/scalable/apps/org.kde.plasmatube.svg
+%{_bindir}/plasmatube
 
 %changelog
 * Sun Feb 27 2022 Antoine Gatineau <antoine.gatineau@infra-monkey.com> - v22.02
