@@ -1,6 +1,6 @@
 %global kf5_version 5.85.0
 %global qt5_version 5.15.2
-Name:     {{{ git_dir_name }}}
+Name:     kcm_webcam_settings
 Version:  0.0.5
 Release:  1
 Summary:  KDE Plasma system-settings module to configure your webcam
