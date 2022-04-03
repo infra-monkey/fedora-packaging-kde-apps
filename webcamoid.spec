@@ -61,7 +61,7 @@ Webcamoid: Virtual Webcam Application
 %cmake_install
 
 %files
-%{_libdir}/libavkys.so.9.0.0
+%{_libdir}/libavkys.so.%{version}
 %{_libdir}/libavkys.so.9
 %{_libdir}/libavkys.so
 %{_libdir}/avkys/libACapsConvert.so
@@ -153,13 +153,6 @@ Webcamoid: Virtual Webcam Application
 %{_datadir}/metainfo/io.github.webcamoid.Webcamoid.metainfo.xml
 
 
-%{_datadir}/applications/org.kde.skanpage.desktop
-%{_datadir}/metainfo/org.kde.skanpage.appdata.xml
-%{_datadir}/qlogging-categories5/skanpage.categories
-%{_bindir}/skanpage
-%{_datadir}/icons/hicolor/scalable/apps/skanpage.svg
-%{_datadir}/icons/hicolor/48x48/apps/skanpage.png
-
 %changelog
-* Sun Feb 27 2022 Antoine Gatineau <antoine.gatineau@infra-monkey.com> - 1.0
-- Packaging of skanpage 1.0
+* Sun Apr 03 2022 Antoine Gatineau <antoine.gatineau@infra-monkey.com> - 9.0.0
+- Packaging of webcamoid 9.0.0
