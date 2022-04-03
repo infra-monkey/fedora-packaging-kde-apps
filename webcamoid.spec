@@ -53,6 +53,7 @@ Webcamoid: Virtual Webcam Application
 
 %prep
 %setup
+mkdir %{_builddir}/redhat-linux-build
 
 %build
 %cmake_build
