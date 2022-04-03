@@ -51,11 +51,10 @@ Requires: qt5-qttools >= %{qt5_version}
 Requires: qt5-qtwayland >= %{qt5_version}
 Requires: vlc
 Requires: ffmpeg >= 4.2
-Requires: gstreamer >= 1.6
+Requires: gstreamer1 >= 1.6
 Requires: pipewire >= 0.3.0
 Requires: v4l-utils
 Requires: libv4l
-Requires: pkexec
 Requires: v4l2loopback
 
 %description
