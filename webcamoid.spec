@@ -56,7 +56,7 @@ Webcamoid: Virtual Webcam Application
 mkdir %{_builddir}/%{name}-%{version}/redhat-linux-build
 
 %build
-%cmake_build
+%cmake_build -S . -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/usr
 
 %install
 %cmake_install
