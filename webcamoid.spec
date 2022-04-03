@@ -82,7 +82,6 @@ mkdir %{_builddir}/%{name}-%{version}/redhat-linux-build
 %{_libdir}/avkys/libAudioGen.so
 %{_libdir}/avkys/libDesktopCapture.so
 %{_libdir}/avkys/libDesktopCapture_qtscreen.so
-%{_libdir}/avkys/libImageSrc.so
 %{_libdir}/avkys/libMultiplex.so
 %{_libdir}/avkys/libMultiSink.so
 %{_libdir}/avkys/libMultiSrc.so
@@ -159,10 +158,9 @@ mkdir %{_builddir}/%{name}-%{version}/redhat-linux-build
 %{_datadir}/icons/hicolor/64x64/apps/webcamoid.png
 %{_datadir}/icons/hicolor/8x8/apps/webcamoid.png
 %{_datadir}/icons/hicolor/scalable/apps/webcamoid.svg
-%{_datadir}/man/man1/webcamoid.1.gz
+%{_datadir}/man/webcamoid.1.gz
 %{_datadir}/licenses/webcamoid/COPYING
 %{_datadir}/applications/webcamoid.desktop
-%{_datadir}/metainfo/io.github.webcamoid.Webcamoid.metainfo.xml
 
 
 %changelog
