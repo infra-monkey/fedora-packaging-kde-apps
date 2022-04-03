@@ -8,6 +8,7 @@ URL:      https://github.com/%{name}/%{name}
 Source0:   https://github.com/%{name}/%{name}/archive/refs/tags/%{version}.tar.gz
 BuildRequires: cmake >= 3.16
 BuildRequires: alsa-lib-devel
+BuildRequires: linux-api-headers >= 3.6.x
 BuildRequires: ccache
 BuildRequires: clang
 BuildRequires: ffmpeg-devel
@@ -43,7 +44,7 @@ Requires: qt5-qtwayland >= %{qt5_version}
 Requires: vlc
 Requires: ffmpeg >= 4.2
 Requires: gstreamer >= 1.6
-Requires: pipewire-devel >= 0.3.0
+Requires: pipewire >= 0.3.0
 Requires: v4l-utils
 Requires: libv4l
 Requires: pkexec
