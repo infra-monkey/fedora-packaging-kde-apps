@@ -34,6 +34,15 @@ BuildRequires: vlc-devel
 BuildRequires: which
 BuildRequires: xorg-x11-server-Xvfb
 BuildRequires: xorg-x11-xauth
+BuildRequires: dbus-libs
+BuildRequires: fontconfig
+BuildRequires: libX11-xcb
+BuildRequires: libXext
+BuildRequires: libXrender
+BuildRequires: libglvnd-glx
+BuildRequires: libxcb
+BuildRequires: libxkbcommon
+BuildRequires: libxkbcommon-x11
 Requires: qt5-linguist >= %{qt5_version}
 Requires: qt5-qtdeclarative >= %{qt5_version}
 Requires: qt5-qtquickcontrols2 >= %{qt5_version}
@@ -47,6 +56,7 @@ Requires: pipewire >= 0.3.0
 Requires: v4l-utils
 Requires: libv4l
 Requires: pkexec
+Requires: v4l2loopback
 
 %description
 Webcamoid: Virtual Webcam Application
@@ -56,7 +66,7 @@ Webcamoid: Virtual Webcam Application
 mkdir %{_builddir}/%{name}-%{version}/redhat-linux-build
 
 %build
-%cmake -B redhat-linux-build -S . -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/usr -DUNIX=true
+%cmake -B redhat-linux-build -S . -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/usr -DQT_QMAKE_EXECUTABLE=qmake-qt5
 %cmake_build
 
 %install
