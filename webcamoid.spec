@@ -8,7 +8,6 @@ URL:      https://github.com/%{name}/%{name}
 Source0:   https://github.com/%{name}/%{name}/archive/refs/tags/%{version}.tar.gz
 BuildRequires: cmake >= 3.16
 BuildRequires: alsa-lib-devel
-BuildRequires: linux-api-headers >= 3.6.x
 BuildRequires: ccache
 BuildRequires: clang
 BuildRequires: ffmpeg-devel
